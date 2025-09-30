@@ -1,0 +1,33 @@
+[2025-09-30 21:08:56,616] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-09-30 21:09:36,669] INFO bookings.middleware: Request start: GET /api/ body=None
+[2025-09-30 21:09:36,693] INFO bookings.middleware: Request finished: GET /api/ status=200 time=0.024s
+[2025-09-30 21:10:00,790] INFO bookings.middleware: Request start: GET /swagger/ body=None
+[2025-09-30 21:10:00,883] INFO bookings.middleware: Request finished: GET /swagger/ status=200 time=0.093s
+[2025-09-30 21:10:02,120] INFO bookings.middleware: Request start: GET /swagger/?format=openapi body=None
+[2025-09-30 21:10:02,144] INFO bookings.middleware: Request finished: GET /swagger/?format=openapi status=200 time=0.024s
+[2025-09-30 21:11:08,908] INFO bookings.middleware: Request start: GET /swagger.json body=None
+[2025-09-30 21:11:08,936] INFO bookings.middleware: Request finished: GET /swagger.json status=200 time=0.027s
+[2025-09-30 22:20:11,279] INFO django.utils.autoreload: C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\booking_system\bookings\views.py changed, reloading.
+[2025-09-30 22:20:12,596] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-09-30 22:20:16,338] INFO bookings.middleware: Request start: GET /swagger/ body=None
+[2025-09-30 22:20:16,365] INFO bookings.middleware: Request finished: GET /swagger/ status=200 time=0.028s
+[2025-09-30 22:20:17,138] INFO bookings.middleware: Request start: GET /swagger/?format=openapi body=None
+[2025-09-30 22:20:17,230] INFO bookings.middleware: Request finished: GET /swagger/?format=openapi status=200 time=0.092s
+[2025-09-30 22:21:44,602] INFO django.utils.autoreload: C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\booking_system\bookings\views.py changed, reloading.
+[2025-09-30 22:21:45,825] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-09-30 22:21:46,318] INFO bookings.middleware: Request start: GET /swagger/ body=None
+[2025-09-30 22:21:46,345] INFO bookings.middleware: Request finished: GET /swagger/ status=200 time=0.027s
+[2025-09-30 22:21:47,206] INFO bookings.middleware: Request start: GET /swagger/?format=openapi body=None
+[2025-09-30 22:21:47,299] INFO bookings.middleware: Request finished: GET /swagger/?format=openapi status=200 time=0.093s
+[2025-09-30 22:22:30,864] INFO django.utils.autoreload: C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\booking_system\bookings\views.py changed, reloading.
+[2025-09-30 22:22:31,796] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-09-30 22:22:34,154] INFO bookings.middleware: Request start: GET /swagger/ body=None
+[2025-09-30 22:22:34,183] INFO bookings.middleware: Request finished: GET /swagger/ status=200 time=0.029s
+[2025-09-30 22:22:34,674] INFO bookings.middleware: Request start: GET /swagger/?format=openapi body=None
+[2025-09-30 22:22:34,710] INFO bookings.middleware: Request finished: GET /swagger/?format=openapi status=200 time=0.036s
+[2025-09-30 22:48:48,940] INFO django.utils.autoreload: C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\booking_system\bookings\models.py changed, reloading.
+[2025-09-30 22:48:50,022] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-09-30 22:49:30,550] INFO django.utils.autoreload: C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\booking_system\bookings\serializers.py changed, reloading.
+[2025-09-30 22:49:31,697] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-09-30 22:50:34,260] INFO django.utils.autoreload: C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\booking_system\bookings\views.py changed, reloading.
+[2025-09-30 22:50:35,299] INFO django.utils.autoreload: Watching for file changes with StatReloader
