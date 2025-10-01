@@ -1,0 +1,4 @@
+Django>=4.2
+djangorestframework>=3.15
+drf-yasg>=1.21.4
+psycopg2-binary>=2.9    # optional; only if you use Postgres. SQLite works without it.
