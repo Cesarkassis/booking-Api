@@ -31,3 +31,146 @@
 [2025-09-30 22:49:31,697] INFO django.utils.autoreload: Watching for file changes with StatReloader
 [2025-09-30 22:50:34,260] INFO django.utils.autoreload: C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\booking_system\bookings\views.py changed, reloading.
 [2025-09-30 22:50:35,299] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-07 14:00:00,609] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-07 14:03:42,441] INFO django.utils.autoreload: C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\booking_system\booking-Api\booking_system\settings.py changed, reloading.
+[2025-10-07 14:05:18,248] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-07 14:08:19,456] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-07 14:15:44,639] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-07 14:21:41,547] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-07 14:23:00,325] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-07 14:25:19,312] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-07 14:25:46,405] INFO django.utils.autoreload: C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\booking_system\booking-Api\bookings\admin.py changed, reloading.
+[2025-10-07 14:25:48,239] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-07 14:25:56,249] INFO django.utils.autoreload: C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\booking_system\booking-Api\bookings\admin.py changed, reloading.
+[2025-10-07 14:25:57,311] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-07 14:26:03,489] INFO bookings.middleware: Request start: GET / body=None
+[2025-10-07 14:26:03,613] INFO bookings.middleware: Request finished: GET / status=404 time=0.125s
+[2025-10-07 14:26:05,061] INFO bookings.middleware: Request start: GET /favicon.ico body=None
+[2025-10-07 14:26:05,082] INFO bookings.middleware: Request finished: GET /favicon.ico status=404 time=0.021s
+[2025-10-07 14:26:56,711] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-07 14:27:15,196] INFO bookings.middleware: Request start: GET / body=None
+[2025-10-07 14:27:15,208] INFO bookings.middleware: Request finished: GET / status=404 time=0.012s
+[2025-10-07 14:31:34,775] INFO bookings.middleware: Request start: GET /api body=None
+[2025-10-07 14:31:34,794] INFO bookings.middleware: Request finished: GET /api status=404 time=0.020s
+[2025-10-07 14:31:34,819] INFO bookings.middleware: Request start: GET /api/ body=None
+[2025-10-07 14:31:34,845] INFO bookings.middleware: Request finished: GET /api/ status=200 time=0.026s
+[2025-10-07 14:32:29,316] INFO django.utils.autoreload: C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\booking_system\booking-Api\bookings\views.py changed, reloading.
+[2025-10-07 14:32:30,798] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-10-07 14:32:35,412] INFO bookings.middleware: Request start: GET /api/ body=None
+[2025-10-07 14:32:35,431] INFO bookings.middleware: Request finished: GET /api/ status=200 time=0.019s
+[2025-10-07 14:35:45,476] INFO bookings.middleware: Request start: GET /swagger/ body=None
+[2025-10-07 14:35:45,843] INFO bookings.middleware: Request finished: GET /swagger/ status=200 time=0.367s
+[2025-10-07 14:35:47,016] INFO bookings.middleware: Request start: GET /swagger/?format=openapi body=None
+[2025-10-07 14:35:47,092] INFO bookings.middleware: Request finished: GET /swagger/?format=openapi status=200 time=0.076s
+[2025-10-07 15:36:30,851] INFO bookings.middleware: Request start: GET /admin/ body=None
+[2025-10-07 15:36:30,914] INFO bookings.middleware: Request finished: GET /admin/ status=302 time=0.064s
+[2025-10-07 15:36:30,941] INFO bookings.middleware: Request start: GET /admin/login/?next=/admin/ body=None
+[2025-10-07 15:36:32,027] INFO bookings.middleware: Request finished: GET /admin/login/?next=/admin/ status=200 time=1.086s
+[2025-10-07 15:36:37,991] INFO bookings.middleware: Request start: POST /admin/login/?next=/admin/ body=csrfmiddlewaretoken=KKS9eQ213oqLqPFp8Dqf59TEEd6mCA3bWQy1mOdvHVqDwiRcwzbDJPMtd7a3s7qO&username=cesar&password=cesar&next=%2Fadmin%2F
+[2025-10-07 15:36:39,872] INFO bookings.middleware: Request finished: POST /admin/login/?next=/admin/ status=200 time=1.882s
+[2025-10-07 15:37:00,466] INFO bookings.middleware: Request start: POST /admin/login/?next=/admin/ body=csrfmiddlewaretoken=dL4gc60ILKm4BQ7bEHgvTXpFqSzoDXRbpRK8k4bcphmWHjjY2D1TxDiuZMD5tueO&username=cesar&password=cesar12345&next=%2Fadmin%2F
+[2025-10-07 15:37:01,943] INFO bookings.middleware: Request finished: POST /admin/login/?next=/admin/ status=302 time=1.476s
+[2025-10-07 15:37:01,961] INFO bookings.middleware: Request start: GET /admin/ body=None
+[2025-10-07 15:37:02,061] INFO bookings.middleware: Request finished: GET /admin/ status=200 time=0.099s
+[2025-10-07 15:37:35,148] INFO bookings.middleware: Request start: GET /admin/bookings/booking/ body=None
+[2025-10-07 15:37:35,767] ERROR django.request: Internal Server Error: /admin/bookings/booking/
+Traceback (most recent call last):
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: bookings_venue.city
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\contrib\admin\options.py", line 719, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\contrib\admin\sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\contrib\admin\options.py", line 2024, in changelist_view
+    cl = self.get_changelist_instance(request)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\contrib\admin\options.py", line 867, in get_changelist_instance
+    return ChangeList(
+           ^^^^^^^^^^^
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\contrib\admin\views\main.py", line 145, in __init__
+    self.queryset = self.get_queryset(request)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\contrib\admin\views\main.py", line 545, in get_queryset
+    ) = self.get_filters(request)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\contrib\admin\views\main.py", line 216, in get_filters
+    spec = field_list_filter_class(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\contrib\admin\filters.py", line 217, in create
+    return list_filter_class(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\contrib\admin\filters.py", line 232, in __init__
+    self.lookup_choices = self.field_choices(field, request, model_admin)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\contrib\admin\filters.py", line 273, in field_choices
+    return field.get_choices(include_blank=False, ordering=ordering)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\db\models\fields\__init__.py", line 1082, in get_choices
+    return (blank_choice if include_blank else []) + [
+                                                     ^
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\db\models\query.py", line 384, in __iter__
+    self._fetch_all()
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\db\models\query.py", line 1949, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\db\models\sql\compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Cesar\Desktop\Apighaymah\Apighaymah\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: bookings_venue.city
+[2025-10-07 15:37:35,807] INFO bookings.middleware: Request finished: GET /admin/bookings/booking/ status=500 time=0.659s

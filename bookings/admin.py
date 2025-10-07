@@ -3,7 +3,7 @@ from .models import Venue, Booking
 
 @admin.register(Venue)
 class VenueAdmin(admin.ModelAdmin):
-    list_display = ("id", "name", "capacity", "address")
+    list_display = ("id", "name", "capacity", "city")
 
 @admin.register(Booking)
 class BookingAdmin(admin.ModelAdmin):

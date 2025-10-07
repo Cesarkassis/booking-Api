@@ -3,7 +3,7 @@ from django.shortcuts import render
 # Create your views here.
 # bookings/views.py
 from rest_framework import viewsets, filters, status
-from rest_framework.decorators import action
+from rest_framework.decorators import action ,api_view
 from rest_framework.response import Response
 from .models import Venue, Booking
 from .serializers import VenueSerializer, BookingSerializer
@@ -109,3 +109,29 @@ class BookingViewSet(viewsets.ModelViewSet):
             {"status": "File uploaded", "filename": file.name, "booking_id": booking.id},
             status=200
         )
+
+
+
+import logging
+logger = logging.getLogger('booking')
+
+@api_view(['GET'])
+def get_booking(request, booking_id):
+    try:
+        booking = Booking.objects.get(id=booking_id)
+        logger.info(f"GET /bookings/{booking_id} status=200 Booking fetched successfully")
+        return Response({'booking': booking.id})
+    except Booking.DoesNotExist:
+        logger.error(f"GET /bookings/{booking_id} status=404 Booking not found")
+        return Response({'error': 'Not found'}, status=404)
+    except Exception as e:
+        logger.error(f"GET /bookings/{booking_id} status=500 Internal Server Error: db not connected or {str(e)}")
+        return Response({'error': 'Server error'}, status=500)
+
+
+import logging
+logger = logging.getLogger('booking')
+
+def test_view(request):
+    logger.info("GET /test status=200 Everything working fine")
+    logger.error("POST /booking status=500 Internal Server Error: db not connected")
